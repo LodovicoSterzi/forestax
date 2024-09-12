@@ -10,10 +10,11 @@ bioRxiv 2024.06.21.600076; doi: https://doi.org/10.1101/2024.06.21.600076
 ## How to install Forestax
 Forestax is a Linux-based software. The tool will be soon available for installation by conda, but until then it can be used as follows.
 ### Download:
-Downlaod the tool from github running on the terminal:
+Download the tool from github and unzip:
 ```
 git clone https://github.com/LodovicoSterzi/forestax
-cd forestax/
+unzip forestax.zip
+cd Forestax/
 ```
 ### Dependencies
 The tool performs a pipeline which requires:
@@ -76,7 +77,7 @@ The tool must be given the type of input (reads,nucleotide or protein), the inpu
 
 #### From paired FASTQ reads (default)
 ```
-python ./forestax.py -r1 example_inputs/reads/*1.fastq.gz r2 example_inputs/reads/*2.fastq.gz -o example_reads
+python ./forestax.py -r1 example_inputs/reads/*1.fastq.gz -r2 example_inputs/reads/*2.fastq.gz -o example_reads
 ```
 #### From FASTA nucleotide
 ```
