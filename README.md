@@ -34,11 +34,11 @@ And the following R libraries:
 - phylotools
 - peakRAM
 
-The list of dependencies might might look scary but only python, R and the R libraries must be installed separately. The secondary tools can be installed automatically in the bin/ folder running:
+The list of dependencies might look scary but only **python, R and the R libraries must be installed manually**. The secondary tools can be installed automatically in the bin/ folder running:
 ```
 python3 install_dependencies.py
 ```
-If you wish to install the tools elsewhere or you already have them, the correct paths must be manually given to the script ***forestax.py*** (line 26-30) as shown here:
+If you wish to install the tools elsewhere, you already have them or if the automatic installation fails, the correct paths must be manually given to the script ***forestax.py*** (line 26-30) as shown here:
 ```
         --> forestax.py line 26-30
 # Paths to tools: CHANGE HERE IF NEEDED
